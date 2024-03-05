@@ -10,7 +10,11 @@ const Index = () => {
         <Box p={5} shadow="md" borderWidth="1px" borderRadius="md" w="100%">
           <Text mb={2}>3D Viewport Placeholder</Text>
           <Box h="400px" bg="gray.300" position="relative" borderRadius="md">
-            <Box position="absolute" top="25%" left="25%" w="50%" h="50%" bg="gray.400" boxShadow="lg" borderRadius="md" />
+            <Box position="absolute" top="25%" left="25%" w="50%" h="50%" bg="gray.500" boxShadow="lg" borderRadius="md">
+              <Text color="white" fontSize="xl" p={3}>
+                3D Model Placeholder
+              </Text>
+            </Box>
           </Box>
         </Box>
         <HStack justifyContent="space-between" w="100%" py={3}>
