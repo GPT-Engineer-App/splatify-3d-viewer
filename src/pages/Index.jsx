@@ -9,9 +9,8 @@ const Index = () => {
         <Heading>Gaussian Splatting 3D Viewer</Heading>
         <Box p={5} shadow="md" borderWidth="1px" borderRadius="md" w="100%">
           <Text mb={2}>3D Viewport Placeholder</Text>
-          {/* This would be replaced with an actual 3D viewer component */}
-          <Box h="400px" bg="gray.200">
-            <img src="path-to-3d-model-preview.png" alt="3D Model Preview" style={{ width: "100%", height: "100%", objectFit: "cover" }} />
+          <Box h="400px" bg="gray.300" position="relative" borderRadius="md">
+            <Box position="absolute" top="25%" left="25%" w="50%" h="50%" bg="gray.400" boxShadow="lg" borderRadius="md" />
           </Box>
         </Box>
         <HStack justifyContent="space-between" w="100%" py={3}>
