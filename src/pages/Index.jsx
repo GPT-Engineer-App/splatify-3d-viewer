@@ -10,8 +10,8 @@ const Index = () => {
         <Box p={5} shadow="md" borderWidth="1px" borderRadius="md" w="100%">
           <Text mb={2}>3D Viewport Placeholder</Text>
           {/* This would be replaced with an actual 3D viewer component */}
-          <Box h="400px" bg="gray.200" display="flex" alignItems="center" justifyContent="center">
-            <Text>3D Model Would Appear Here</Text>
+          <Box h="400px" bg="gray.200">
+            <img src="path-to-3d-model-preview.png" alt="3D Model Preview" style={{ width: "100%", height: "100%", objectFit: "cover" }} />
           </Box>
         </Box>
         <HStack justifyContent="space-between" w="100%" py={3}>
